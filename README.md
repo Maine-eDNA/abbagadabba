@@ -3,9 +3,9 @@
 # abbagadabba
 
 R package *abbagadabba* (**a**mplicon-**b**ased **b**iodiversity
-**a**ssessment, *g*ap *a*nalysis, *da*ta*b*ase *b*uilding *a*nd more)
-provides functions to download DNA sequence data from NCBI based on
-species names.
+**a**ssessment, **g**ap **a**nalysis, **da**ta**b**ase **b**uilding
+**a**nd more) provides functions to download DNA sequence data from NCBI
+based on species names.
 
 ## Installation
 
