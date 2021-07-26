@@ -1,0 +1,20 @@
+Package: abbagadabba
+Type: Package
+Title: Amplicon-based biodiversity assessment, gap analysis, database building, and more!
+Version: 0.1.0
+Author: Andy Rominger
+Maintainer: <andrew.rominger@maine.edu>
+Description: Mines GenBank for existing sequences and identifies gaps in taxonomic coverage
+License: GPL-3.0 License
+Encoding: UTF-8
+LazyLoad: yes
+LazyData: true
+Depends:
+    R (>= 4.0)
+Imports:
+    rentrez,
+    taxize, 
+    XML
+Suggests:
+    testthat
+RoxygenNote: 7.1.1
