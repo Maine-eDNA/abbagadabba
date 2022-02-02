@@ -1,4 +1,6 @@
-#' Download sequences and metadata from GenBank by unique identifier
+#' @title Download sequences and metadata from GenBank by unique identifier
+#'
+#' @description foobar
 #'
 #' @param id character vector of unique ID(s) for records in database
 #'

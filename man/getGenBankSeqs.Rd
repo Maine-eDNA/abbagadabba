@@ -21,5 +21,5 @@ matched to the metadata by accession.version number
 }
 }
 \description{
-Download sequences and metadata from GenBank by unique identifier
+foobar
 }
