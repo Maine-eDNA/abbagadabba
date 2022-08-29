@@ -16,9 +16,8 @@ getNCBISeqID <- function(spp) {
     seqIDs <- rentrez::entrez_search(db = 'nuccore',
                                      term = paste(sprintf('%s[ORGN]', spp),
                                                   collapse = ' OR '),
-                                     retmax = 5e+04)
+                                     use_history = TRUE)
 
     # note: can search for loci with something like this: 16S[All Fields] AND "foo"[Organism]
-    return(seqIDs$ids)
-
+    return(seqIDs)
 }
